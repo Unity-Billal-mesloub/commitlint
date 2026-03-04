@@ -55,7 +55,7 @@ To make your life easier commitlint is commitizen-friendly and provides the npm 
 
 > Commit standards
 
-- [conventional-changelog](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/prompt)
+- [conventional-changelog](https://github.com/Unity-Billal-mesloub/commitlint/tree/main/%40commitlint/prompt)
 - husky commit message hook available
 - present tense
 - maximum of 100 characters
@@ -110,8 +110,6 @@ For more information refer to [vitepress documentation](https://vitepress.dev).
 npm login
 nvm use (if you have nvm installed)
 ```
-
-- [nvm](https://github.com/nvm-sh/nvm)
 - [asdf](https://asdf-vm.com/) is supported as well
 
 ```sh
@@ -129,7 +127,7 @@ has not been published yet.
 ### Create GitHub release
 
 1. Copy changelog entry for the new version
-1. Create release for the new tag: https://github.com/conventional-changelog/commitlint/releases
+1. Create release for the new tag: https://github.com/Unity-Billal-mesloub/commitlint/releases
 1. Post in the [commitlint Slack-channel][12]
 
 ### Publish a `next` release (or i.e. patch release)
