@@ -6,7 +6,7 @@
   <img width="600" src="docs/public/assets/commitlint.svg">
 </p>
 
-> Demo generated with [svg-term-cli](https://github.com/marionebl/svg-term-cli)
+> Demo generated with [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 >
 > `cat docs/assets/commitlint.json | svg-term --out docs/public/assets/commitlint.svg --frame --profile=Seti --height=20 --width=80`
 
@@ -63,7 +63,7 @@ fix(server): send cors headers
 feat(blog): add comment section
 ```
 
-Common types according to [commitlint-config-conventional (based on the Angular convention)](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional#type-enum) can be:
+Common types according to [commitlint-config-conventional (based on the Angular convention)](https://github.com/Unity-Billal-mesloub/commitlint/tree/master/@commitlint/config-conventional#type-enum) can be:
 
 - build
 - chore
@@ -115,8 +115,7 @@ These can be modified by [your own configuration](#config).
   - `commitlint.config.cts`
   - `commitlint.config.mts`
   - `commitlint` field in `package.json`
-  - `commitlint` field in [`package.yaml`](https://github.com/pnpm/pnpm/pull/1799)
-- Packages: [cli](./@commitlint/cli), [core](./@commitlint/core)
+- Packages: [cli](./@Unity-Billal-mesloub/cli), [core](./@Unity-Billal-mesloub/core)
 - See [Rules](./docs/reference/rules.md) for a complete list of possible rules
 - An example configuration can be found at [@commitlint/config-conventional](./@commitlint/config-conventional/src/index.ts)
 
@@ -165,11 +164,11 @@ Check the [main website](https://commitlint.js.org/).
 
 `commitlint` is considered stable and is used in various projects as a development tool.
 
-> **Ideas**: [conventional-changelog/commitlint#94](https://github.com/conventional-changelog/commitlint/issues/94)
+> **Ideas**: [Unity-Billal-mesloub/commitlint](https://github.com/Unity-Billal-mesloub/commitlint/issues/)
 
 ## Version Support and Releases
 
-- Node.js [LTS](https://github.com/nodejs/LTS#lts-schedule) `>= 18`
+- Node.js [LTS](https://github.com/Unity-Billal-mesloub) `>= 18`
 - git `>= 2.13.2`
 
 ### Releases
@@ -179,35 +178,18 @@ Features will only be applied to the current main version.
 
 | Release                                                                          | Initial release |
 | -------------------------------------------------------------------------------- | --------------- |
-| [v19](https://github.com/conventional-changelog/commitlint/releases/tag/v19.0.0) | 02/2024         |
-| [v18](https://github.com/conventional-changelog/commitlint/releases/tag/v18.0.0) | 10/2023         |
+| [v19](https://github.com/Unity-Billal-mesloub/commitlint/releases/tag/v19.0.0) | 02/2024         |
+| [v18](https://github.com/Unity-Billal-mesloub/commitlint/releases/tag/v18.0.0) | 10/2023         |
 
 EOL is usually after around a year.
 
 We're not a sponsored OSS project. Therefore we can't promise that we will release patch versions for older releases in a timely manner.\
 If you are stuck on an older version and need a security patch we're happy if you can provide a PR.
 
-## Related projects
-
-- [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
-  Generate a changelog from conventional commit history
-- [commitizen](https://github.com/commitizen/cz-cli)
-  Simple commit conventions for internet citizens
-- [create-semantic-module](https://github.com/jlegrone/create-semantic-module)
-  CLI for quickly integrating commitizen and commitlint in new or existing projects
-
-## License
-
-Copyright by @marionebl. All `commitlint` packages are released under the MIT license.
-
-## Development
-
-`commitlint` is developed in a mono repository.
-
 ### Install and run
 
 ```sh
-git clone git@github.com:conventional-changelog/commitlint.git
+git clone git@github.com:Unity-Billal-mesloub/commitlint.git
 cd commitlint
 yarn
 yarn run build # run build tasks
@@ -221,8 +203,8 @@ For more information on how to contribute please take a look at our [contributio
 [1]: https://nodejs.org/api/documentation.html#documentation_stability_index
 [2]: https://img.shields.io/npm/v/@commitlint/cli.svg?style=flat-square
 [3]: https://npmjs.org/package/@commitlint/cli
-[4]: https://github.com/conventional-changelog/commitlint/actions/workflows/CI.yml/badge.svg
-[5]: https://github.com/conventional-changelog/commitlint/actions/workflows/CI.yml
+[4]: https://github.com/Unity-Billal-mesloub/commitlint/actions/workflows/CI.yml/badge.svg
+[5]: https://github.com/Unity-Billal-mesloub/commitlint/actions/workflows/CI.yml
 [8]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
 [9]: https://nodejs.org/api/documentation.html#documentation_stability_index
 [10]: https://img.shields.io/npm/v/@commitlint/cli/next.svg?style=flat-square
